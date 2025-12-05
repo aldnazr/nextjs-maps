@@ -41,7 +41,9 @@ export function RouteMap({ routeData }: RouteMapProps) {
   if (!routeData || !routeData.routes || routeData.routes.length === 0) {
     return (
       <div className="h-full w-full flex items-center justify-center bg-muted rounded-lg border">
-        <p className="text-muted-foreground">Data rute tidak tersedia</p>
+        <p className="text-lg text-muted-foreground">
+          Silahkan klik Dapatkan Rute
+        </p>
       </div>
     );
   }
